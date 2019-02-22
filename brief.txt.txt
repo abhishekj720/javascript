@@ -1,0 +1,24 @@
+The href attribute, demonstrated above, can be written without quotes
+style="font-size:60px
+The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Small text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+The CSS padding property defines a padding (space) between the text and the border
+The CSS margin property defines a margin (space) outside the border
+<link>	Defines a link between a document and an external resource
+By default, a link will appear like this (in all browsers):
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+
+style="background-image:url('clouds.jpg');">
+
