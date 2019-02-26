@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <style>
+            .bs-example div[class^="col"] {
+                border: 1px solid white;
+                text-align: center;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+
+            body{
+                font-style: oblique
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
+</head>
+<body>
+    <h1>REGISTER</h1>
+    <br/>
+    <form method="POST" novalidate>
+    <div class="container  justify-content-center">
+    <div class="form-group row  mt-3 ">
+            <label class="col-md-2 col-sm-4"><b>FIRST NAME:</b></label>
+    <input class=" offset-md-3" type="text" id="fname" size="50"   >
+
+    </div>
+    <div class="form-group row  mt-3">
+            <label class="col-md-2 col-sm-4"><b>LAST NAME:</b></label>
+    <input class="offset-md-3" type="text" id="lname" size="50"  class=" ">
+
+    </div>
+    
+    <div class="form-group row  mt-3">
+            <label class="col-md-3"><b>AGE:</b></label>
+            <input type="number" class="offset-md-2 " id="age" >
+        </div>
+        <div class="form-group row  mt-3">
+                <label class="col-md-3 col-sm-4"><b>GENDER:</b></label>
+                <select class="offset-md-2" id="gender" >
+                    <option>MALE</option>
+                    <option>FEMALE</option>
+                </select>
+            </div>
+  
+    <div class="form-group row  mt-3 ">
+        <label class="col-sm-3" for="Country"><b>COUNTRY:</b></label>
+        <select id="country" list="Country" value="country" class="offset-md-2" name="Country" value="Country" aria-placeholder="Country">Country
+            <option>India</option>
+            <option>China</option>
+            <option>yoyo</option>
+            </select>
+    </div>
+    <input type="checkbox" id="agree" onclick='EnableSubmit(this)' ><label >Please agree to terms and condition</label>
+    <br/>
+    <br/>
+<button type="submit" class="row col-sm-2 offset-md-5 justify-content-center btn btn-primary offset-md-3" id="register"">Submit</button>    
+</div>
+</form>
+<script src="valid3.js"></script>
+</body>
+</html>
